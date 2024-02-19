@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h3 {
+  color: floralwhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grad {
+  background: linear-gradient(to bottom, #1c87ab, #341933) fixed;
+}
+
+.main-container {
+  padding: 64px 16px 32px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.title-container {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.title-h1 {
+  margin: 25px auto 5px;
+}
+
+.title-h3 {
+  margin: 6px auto 30px;
+}
+
+.list-container {
+  width: 80vw;
+  max-width: 670px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.list-container-son {
+  width: -webkit-fill-available;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(136, 136, 136);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.list-container-son:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.list-container-text {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(136, 136, 136);
+  border-radius: 8px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.figura-prontuario {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  display: block;
+  object-fit: contain;
+  object-position: initial;
+  filter: none;
+}
